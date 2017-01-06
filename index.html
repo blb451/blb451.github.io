@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Benjamin Brenner - Web Developer</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  </head>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                   <span class="light">Benjamin</span> Brenner
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#technologies">Technologies</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body" style="background-image: url(img/landing.jpg); background-size: cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Benjamin Brenner</h1>
+                        <p class="intro-text" style='color: #42DCA3; font-family: Helvetica;'>Web Developer</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated" style='color: #42DCA3;'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <div class='grad1'>
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About</h2>
+                <img src="img/blb.png" class='photo'/>
+                <p class='text-muted'> A CodeCore Developer Bootcamp graduate based in Vancouver, British Columbia with a background in the culinary arts. I enjoy working to build creative projects and addressing problems and challenges with innovative solutions and a desire for continuous growth.</p>
+                <p>Currently seeking opportunities.</p>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class='grad2'>
+      <div class="container content-section">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Portfolio</h2>
+            <h3 class="section-subheading text-muted">
+              <p>
+                Or see my
+                <a href="https://github.com/blb451">Github<i class="fa fa-github fa-fw"></i></a>
+                for projects under development.
+              </p>
+            </h3>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <!-- Portfolio 1 -->
+          <div class="col-md-6 col-sm-6 portfolio-item">
+              <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                  <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                      </div>
+                  </div>
+                  <img src="img/portfolio/splitter.jpg" class="thumbnail img-responsive">
+              </a>
+              <div class="portfolio-caption">
+                  <h4>Splitter</h4>
+              </div>
+          </div>
+
+          <!-- Portfolio 2 -->
+          <div class="col-md-6 col-sm-6 portfolio-item">
+              <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                  <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                      </div>
+                  </div>
+                  <img src="img/portfolio/pokemango.jpg" class="thumbnail img-responsive">
+              </a>
+              <div class="portfolio-caption">
+                  <h4>PokeMAN Go</h4>
+              </div>
+          </div>
+
+          <!-- Portfolio 3 -->
+          <div class="col-md-6 col-sm-6 portfolio-item">
+              <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                  <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                      </div>
+                  </div>
+                  <img src="img/portfolio/petfinder.jpg" class="thumbnail img-responsive">
+              </a>
+              <div class="portfolio-caption">
+                  <h4>Find My Pet</h4>
+              </div>
+          </div>
+
+          <!-- Portfolio 4 -->
+          <div class="col-md-6 col-sm-6 portfolio-item">
+              <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                    </div>
+                  </div>
+                  <img src="img/portfolio/blog.jpg" class="thumbnail img-responsive">
+              </a>
+              <div class="portfolio-caption">
+                  <h4>CodeCore Blog</h4>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies Section -->
+        <section id="technologies">
+          <div class="container content-section">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Technologies</h2>
+              </div>
+            </div>
+
+            <div class="row text-center">
+              <div class="col-md-1">
+              </div>
+
+              <div class="col-md-5">
+                <div class="row">
+                  <h3 class="service-heading text-muted">Languages</h4>
+                </div>
+
+                <div class="row">
+                  <img src="img/logos/ruby.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="Ruby">
+                  <img src="img/logos/html5.png" alt="css3-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="HTML5">
+                  <img src="img/logos/css3.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="CSS3" style= "height: 62px; width: 62px;">
+                  <img src="img/logos/js.png" alt="css3-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="Javascript">
+               </div>
+
+                <div class="divider">
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div class="row">
+                  <h3 class="service-heading text-muted">Database Management</h4>
+                </div>
+
+                <div class="row">
+                  <img src="img/logos/postgresql.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL">
+                  <img src="img/logos/mongodb.png" alt="css3-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="mongoDB" style= "width:70px;">
+                </div>
+
+                <div class="divider">
+                </div>
+              </div>
+
+              <div class="col-md-1">
+              </div>
+            </div>
+
+            <div class="row text-center">
+              <div class="col-md-1">
+              </div>
+
+              <div class="col-md-5">
+                <div class="row">
+                  <h3 class="service-heading text-muted">Frameworks, Libraries, Etc.</h4>
+                </div>
+
+                <div class="row">
+                  <img src="img/logos/rails.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="Rails">
+                  <img src="img/logos/jquery.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="JQuery">
+                  <img src="img/logos/nodejs.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="Node.js">
+                  <img src="img/logos/react.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="React">
+                </div>
+                <div class="row">
+                  <img src="img/logos/bootstrap.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="Bootstrap">
+                </div>
+
+                <div class="divider">
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div class="row">
+                  <h3 class="service-heading text-muted">Other Tools</h4>
+                </div>
+
+                <div class="row">
+                  <img src="img/logos/atom.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="Atom Editor">
+                  <img src="img/logos/github.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="Github">
+                  <img src="img/logos/heroku.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="Heroku">
+                  <img src="img/logos/amazons3.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="AWS">
+                </div>
+                <div class="row">
+                  <img src="img/logos/rspec.png" alt="html5-logo" class="tech-logo" data-toggle="tooltip" data-placement="bottom" title="RSpec">
+                </div>
+                </div>
+
+                <div class="divider">
+                </div>
+              </div>
+
+              <div class="col-md-1">
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <div style='background-image: url(img/gradient1.jpg); background-size: 100% 100%; padding-bottom: 30px;'>
+          <section id="contact" class="container content-section text-center">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <h2>Contact Me</h2>
+                      <ul class="list-inline banner-social-buttons">
+                          <li>
+                              <a href="https://ca.linkedin.com/in/benjamin-brenner-" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                          </li>
+                          <li>
+                              <a href="https://github.com/blb451" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                          </li>
+                          <li>
+                              <a href="mailto:ben.l.brenner@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
+        </div>
+
+
+
+        <!-- Portfolio Modals -->
+          <!-- Use the modals below to showcase details about your portfolio projects! -->
+          <!-- Portfolio Modal 1 -->
+          <div id="portfolioModal1" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Splitter</h4>
+                </div>
+                <div class="modal-body">
+                  <img src="img/portfolio/splitter.gif" />
+                  <p class='text-muted'>
+                    Splitter is a social music sharing platform built using Ruby on Rails that allows users to follow friends, share music they’re listening to, make comments, and suggest music for others. Technologies used in creating this app also include PostgreSQL, JQuery, AJAX, Javascript, HTML, CSS, Bootstrap, as well as the Spotify API.
+                  </p>
+                  <ul class="list-inline banner-social-buttons" style='text-align: center;'>
+                      <li>
+                          <a href="https://github.com/blb451/Splitter" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Source Code</span></a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- Portfolio Modal 2 -->
+          <div id="portfolioModal2" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">PokeMAN Go</h4>
+                </div>
+                <div class="modal-body">
+                  <img src="img/portfolio/pokemango.gif" />
+                  <p class='text-muted'>
+                    First-place winner of the inaugural YVR Comedy Hackathon.
+
+        Over the course of of two days, our team developed a parody game of the popular 'Pokemon Go'. Our app allowed users to 'catch' different categories of people through the use of facial recognition technology. We built our project using Ruby on Rails, HTML, W3-CSS, Javascript, PostgreSQL, and the FacePlusPlus API. We also relied heavily on proper Git practices and version control.
+                  </p>
+                  <ul class="list-inline banner-social-buttons" style='text-align: center;'>
+                      <li>
+                          <a href="https://github.com/blb451/Pokeman-Go" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Source Code</span></a>
+                      </li>
+                      <li>
+                          <a href="https://pokeman-go.herokuapp.com/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-window-maximize fa-fw"></i> <span class="network-name">Live Application</span></a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Portfolio Modal 3 -->
+          <div id="portfolioModal3" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Find My Pet</h4>
+                </div>
+                <div class="modal-body">
+                  <img src="img/portfolio/petfinder.gif" />
+                  <p class='text-muted'>
+                    This 'Find My Pet' web app was created by a group as a 48 hour project at CodeCore. We later split into teams to continue work on the app to implement features, increase overall functionality and remove bugs. I predominantly spent time creating RSpec tests, pair programming to remove bugs, and I also implemented geocoder for the application. It was also a good opportunity to practice using git in a larger team environment.
+                  </p>
+                  <ul class="list-inline banner-social-buttons" style='text-align: center;'>
+                      <li>
+                          <a href="https://github.com/CodeCoreYVR/find_my_pet" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Source Code</span></a>
+                      </li>
+                      <li>
+                          <a href="https://findmypetapp2.herokuapp.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-window-maximize fa-fw"></i> <span class="network-name">Live Application</span></a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- Portfolio Modal 4 -->
+          <div id="portfolioModal4" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">CodeCore Blog</h4>
+                </div>
+                <div class="modal-body">
+                  <img src="img/portfolio/blog.gif" />
+                  <p class='text-muted'>
+                    This project was a simple blog app used for implementing and practicing the various skills taught to us throughout the bootcamp. After it's completion, I decided to follow up by implementing a few more features and took it as an opportunity to practice styling using pure CSS without any front-end framework.
+                  <ul class="list-inline banner-social-buttons" style='text-align: center;'>
+                      <li>
+                          <a href="https://github.com/blb451/Blog" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Source Code</span></a>
+                      </li>
+                      <li>
+                          <a href="https://codecore-blog-project.herokuapp.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-window-maximize fa-fw"></i> <span class="network-name">Live Application</span></a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="http://demosthenes.info/assets/scripts/extras/shapes.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/custom.js"></script>
+
+
+  </body>
+</html>

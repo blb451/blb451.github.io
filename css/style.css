@@ -1,0 +1,97 @@
+.thumbnail {
+  height: 300px;
+  width: 500px;
+}
+
+.tech-logo {
+  width: 55px;
+  height: 55px;
+  margin: 10px;
+}
+
+.divider {
+  height: 30px;
+}
+
+.thumbnail:hover {
+  background-color: #1d9b6c;
+  border: #1d9b6c;
+  color: #1d9b6c;
+  transition: 0.2s ease-in-out;
+}
+
+.tooltip-inner {
+  background-color: #1d9b6c;
+}
+
+.modal-dialog {
+  width: 690px;
+}
+
+.modal-body {
+    background-color: black;
+}
+.modal-header {
+    background-color: black;
+}
+.modal-footer {
+    background-color: black;
+}
+
+.modal-body img {
+  height: 400px; width: 650px;
+}
+
+.modal-content p {
+  font-family: Helvetica; font-size: 16px; margin-top: 5px;
+}
+
+.modal-content h4 {
+  font-size: 30px;
+}
+
+.modal-content button {
+  color:white; opacity: 1; font-size: 50px;
+}
+
+.modal-content button:hover {
+  color: lightgrey;
+  transition: 0.2s ease-in-out;
+}
+
+.photo {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  float: left;
+  border: .5px solid white;
+  float: left;
+  margin-right: 4rem;
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
+
+#about .text-muted {
+  text-align: left;
+}
+
+.grad1 {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, #292929); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, #292929); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, #292929); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, #292929); /* Standard syntax */
+}
+
+.grad2 {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#292929, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#292929, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#292929, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#292929, black); /* Standard syntax */
+}
