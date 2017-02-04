@@ -73,8 +73,32 @@
   shape-outside:circle();
 }
 
+.experience-photo {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  float: left;
+  border: .5px solid white;
+  float: left;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 10%;
+}
+
 #about .text-muted {
   text-align: left;
+}
+
+.experience-text {
+  text-align: left;
+}
+
+.experience-text h3, h4 {
+  margin: 5px;
+  padding: 5px;
 }
 
 #contact {
